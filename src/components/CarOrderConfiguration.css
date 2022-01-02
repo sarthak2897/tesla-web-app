@@ -1,0 +1,90 @@
+.cars_configure{
+    display: flex;
+}
+
+.cars_image{
+    flex : 0.7;
+}
+
+.cars_content{
+    margin: 30px auto;
+    flex : 0.3;
+    flex-direction: column;
+    text-align: center;
+}
+.cars_content > p:nth-child(1){
+    font-size : 20px;
+    font-weight: 600;
+}
+
+.cars_specs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin : 20px auto;
+}
+
+.cars_specs div p:nth-child(2){
+    color: #787878;
+    font-size: 12px;
+}
+.cars_specs div p:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cars_variants{
+    display: flex;
+    flex-direction: column;
+}
+
+.cars_variants button{
+    margin-bottom: 10px;
+}
+.cars_variants button p {
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .cars_paint input{
+    margin: 20px 10px;
+    height: 5vh;
+} */
+
+.cars_wheel_details ,.cars_paint_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cars_order_completion p:nth-child(2),.cars_wheel_details p:nth-child(2) ,.cars_paint_details p:nth-child(2){
+    color: #787878;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.cars_order_completion p:nth-child(1),.cars_wheel_details p:nth-child(1) ,.cars_paint_details p:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cars_order_completion{
+    margin : 20px auto;
+}
+
+.heading{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight:600
+}
+
+
+@media screen and (max-width : 700px){
+    .cars_configure{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,10 @@
+input{
+    margin: 20px 10px;
+    height: 5vh;
+}
+
+.input:active, 
+.input:focus 
+{
+    border:1px solid #097BE4;
+ }

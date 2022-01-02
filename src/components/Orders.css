@@ -1,0 +1,96 @@
+.orders_page{
+    text-align: center;
+}
+.green_tick_img{
+    width : 3vw;
+    margin-right: 10px;
+}
+
+.orders_status{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orders_status p{
+    font-size : 18px;
+    font-weight: 600;
+}
+.cartoon_img{
+    width: 20vw;
+}
+
+.cars_specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 20px auto;
+}
+
+.cars_specs div{
+    margin : 0 10px;
+}
+.cars_specs div p:nth-child(2){
+    color: #787878;
+    font-size: 12px;
+}
+.cars_specs div p:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+}
+.heading{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight:600
+}
+.car_img{
+    width: 40vw;
+}
+.cars_variant{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+.cars_variant p {
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.orders_self_drive,.orders_wheel,.orders_paint{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin : 10px auto;
+}
+
+.orders_self_drive div,.orders_wheel div,.orders_paint div{
+    margin: 10px 40px;
+}
+
+.orders_self_drive p:nth-child(2),.orders_wheel p:nth-child(2),.orders_paint p:nth-child(2){
+    color: #787878;
+    font-size: 14px;
+    /* margin-left: 10px; */
+}
+.orders_self_drive p:nth-child(1),.orders_wheel p:nth-child(1),.orders_paint p:nth-child(1){
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav_buttons{
+    margin: 20px 0;
+}
+
+.nav_buttons button:nth-child(2){
+    margin-left: 20px;
+}
+
+@media screen and (max-width : 700px){
+    .orders_self_drive,.orders_wheel,.orders_paint{
+        width: 100%;
+    }
+}
